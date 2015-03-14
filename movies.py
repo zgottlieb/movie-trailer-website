@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# START Movie instance definitions
 her = media.Movie("Her",
 									"A lonely writer develops an unlikely relationship with his newly purchased operating system that's designed to meet his every need.",
 									"http://ia.media-imdb.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_SY317_CR0,0,214,317_AL_.jpg",
@@ -42,7 +43,11 @@ its_a_wonderful_life = media.Movie("It's a Wonderful Life",
 																	 "https://www.youtube.com/watch?v=LJfZaT8ncYk",
 																	 "Frank Capra",
 																	 "1946")
+# /END Movie instance definitions
 
+# list of movies to show on page
 movies = [her, goodfellas, the_shawshank_redemption, annie_hall, the_usual_suspects, its_a_wonderful_life]
 
+# opens movie trailer website in browser, using the 
+#movies specified in the 'movies' array above
 fresh_tomatoes.open_movies_page(movies)
