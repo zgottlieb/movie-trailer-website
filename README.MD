@@ -1,5 +1,9 @@
-Python Movie Trailer Website
+Movie Trailer Website
 ============================
+
+Description
+-----------
+Python script that builds a website to display movie information and view movie trailers. Used as personal practice for Python programming.
 
 Usage
 -----
